@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> 
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
@@ -7,6 +7,38 @@
 //Teste larissa
 
 int main() {
+
+     int populacao; // populacao de estados
+     int numero ; // Numero de pontos turisticos
+     float area; // Area de estados
+     float Pib ; // produto interno bruto 
+
+      printf("Digite a populaçao do estado: \n");
+     scanf("%d", &populacao);
+
+     printf("Digite o numero de pontos turisticos de estado: \n");
+     scanf("%d", &numero);
+ 
+     printf("Digite a area do estado: \n");
+     scanf("%f", &area);
+
+     printf("Digite o pib do estado: \n");
+     scanf("%f", &Pib);
+
+
+printf("populacao: %d \n", populacao);
+printf("numero de pontos turisticos: %d \n", numero);
+ printf("area: %.2f \n", area);
+ printf ("Pib: %.2f \n", Pib);
+
+
+
+
+ return 0; 
+
+   
+   
+   
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
